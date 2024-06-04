@@ -8,11 +8,11 @@ const urls = [
 ];
 
 const headers = {
-    'X-API-KEY': 'uhy4Vpma7mt1UlZgsCwn8ZXPKjY8HA228J+LqQUo7JQ=',
-    'X-API-SECRET': '73kWos4hhgk6TpdONIqaJyH-HozddSkPMKS4h7hPqI8=',
+    'X-API-KEY': '',
+    'X-API-SECRET': '=',
     'Referer': 'https://communities.win/c/IP2Always/',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
-    'X-Xsrf-Token': '07e7f94e-0973-4172-bac8-0448ac0ace04',
+    'X-Xsrf-Token': '',
     'X-Api-Platform': 'Scored-Desktop'
 };
 
@@ -53,7 +53,7 @@ async function main() {
         userLink: `https://communities.win/u/${result.author}`
     }));
 
-    const outputPath = path.join('C:', 'Users', 'srrm4', 'OneDrive', 'Desktop', 'output.json');
+    const outputPath = path.join('output.json');
     fs.writeFileSync(outputPath, JSON.stringify(sortedResults, null, 2), 'utf-8');
     console.log('Data written to output.json');
 }
