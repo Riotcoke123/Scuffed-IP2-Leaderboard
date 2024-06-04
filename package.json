@@ -1,0 +1,20 @@
+{
+  "name": "scuffed-ip2-leaderboard",
+  "version": "1.0.0",
+  "description": "A Node.js script to fetch posts from scored.co, calculate scores, and generate a leaderboard for the IP2 community.",
+  "main": "ip2.js",
+  "scripts": {
+    "start": "node ip2.js"
+  },
+  "keywords": [
+    "IP2",
+    "leaderboard",
+    "scored.co",
+    "node.js"
+  ],
+  "author": "RIOTCOKE",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
