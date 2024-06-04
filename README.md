@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scuffed IP2 Leaderboard</title>
 </head>
 
 <body>
@@ -73,7 +72,7 @@
     <h2>Contributing</h2>
     <p>If you would like to contribute to this project, please fork the repository and submit a pull request.</p>
     <h2>License</h2>
-    <p>This project is licensed under the MIT License.</p>
+    <p>GNU General Public License (GPL).</p>
 </body>
 
 </html>
